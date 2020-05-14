@@ -1,0 +1,75 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 30px;
+    background: none;
+    background-image: url(https://i.pinimg.com/originals/d6/c2/b0/d6c2b0fdf92a27109c665a3ba00985cd.png);
+}
+
+.wrapper{
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+.blue {
+    color:lightskyblue;
+}
+
+h1{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+
+#balloon-gallery div{
+    background: red;
+    background-image: url(https://oakhammockah.com/wp-content/uploads/2017/12/cat-circle.png) 120px;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    font-family: sans-serif, arial;
+    border-radius: 100%;
+    margin-top: 20px;
+    display: inline-block;
+    margin: 2.5px 5 px 2.5px 0px;
+}
+
+#balloon-gallery div:nth-child(3n){
+    background: green;
+    color: green;
+}
+
+#balloon-gallery div:nth-child(3n-1){
+    background:blue;
+    color:blue;
+}
+
+#balloon-gallery div:nth-child(5n){
+    background:purple;
+    color:purple;
+}
+
+#balloon-gallery div:nth-child(13){
+    background:goldenrod;
+    color:goldenrod;
+}
+
+#balloon-gallery div:nth-child(10n){
+    background:red;
+    color: red;
+}
+
+#balloon-gallery div:nth-child(4n){
+    clear:right;
+}
+
+#all-popped {
+    display:none;
+    color: white;
+    font-size:100px;
+}
